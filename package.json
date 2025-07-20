@@ -1,0 +1,22 @@
+{
+  "name": "markx-robot",
+  "version": "1.0.0",
+  "description": "NodeJs project just so we can have a local Appium server",
+  "license": "ISC",
+  "author": "Marcio Soares",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "appium": "^2.1.3",
+    "mongodb": "^6.17.0"
+  },
+  "devDependencies": {
+    "appium-uiautomator2-driver": "^4.2.5"
+  }
+}
